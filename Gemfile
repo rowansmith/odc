@@ -6,7 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.0.5'
-gem 'sqlite3'
+
+gem 'pg'
+
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -21,6 +23,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap-sass', '~> 3.3.7'
+gem 'animate-scss', '~> 0.0.5'
+gem "font-awesome-rails"
 
 
 group :development, :test do

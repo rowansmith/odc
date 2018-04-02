@@ -175,7 +175,6 @@
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.animate-box').waypoint( function( direction ) {
-			debugger
 			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
 
 				i++;
