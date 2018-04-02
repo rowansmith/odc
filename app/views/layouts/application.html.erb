@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CollectiveIdea</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+  <div id='page'>
+
+    <nav class="gtco-nav" role="navigation">
+      <div class="gtco-container">
+        <div class="row">
+          <div class="col-sm-2 col-xs-12">
+            <div id="gtco-logo"><a href="http://www.free-css.com/free-css-templates">ODC</a></div>
+          </div>
+          <div class="col-xs-10 text-right menu-1 main-nav">
+            <ul>
+              <li class="active"><a href="javascript:void(0)" data-nav-section="services">YES, WE CAN</a></li>
+              <li><a href="javascript:void(0)" data-nav-section="portfolio">PORTFOLIO</a></li>
+              <li><a href="javascript:void(0)" data-nav-section="wow">WORDS OF WISDOM</a></li>
+              <li><a href="javascript:void(0)" data-nav-section="contact">SAY HI</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="gtco-hero" class="js-fullheight" data-section="home" style="height: 518px;">
+      <div class="flexslider js-fullheight" style="height: 518px;">
+        <ul class="slides"  style='padding-left: 0px;'>
+          <li style="background-image: url(&quot;images/img_bg_1.jpg&quot;); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1; height: 518px;" class="" data-thumb-alt="">
+            <div class="container">
+              <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text" style="height: 518px;">
+                <div class="slider-text-inner">
+
+                <div class='top-silder-text'>
+                  <h1>Welcome to the home of</h1>
+
+                  <h2>OPEN DOORS COLLECTIVE</h2>
+                </div>
+
+                <div class='bottom-silder-text'>
+                  <h1>BESPOKE REPRESENTATION </h1>
+
+                  <h3>COMMUNICATIONS  |  PR  | SOCIAL MEDIA</h3>
+                </div>
+
+
+                </div>
+              </div>
+            </div>
+          </li>
+          <li style="background-image: url(&quot;images/img_bg_2.jpg&quot;); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1; height: 518px;" data-thumb-alt="" class="">
+            <div class="container">
+              <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text" style="height: 518px;">
+                <div class="slider-text-inner">
+                  <div class='top-silder-text'>
+                    <h1>Welcome to the home of</h1>
+
+                    <h2>OPEN DOORS COLLECTIVE</h2>
+                  </div>
+
+                  <div class='bottom-silder-text'>
+                    <h1>BESPOKE REPRESENTATION </h1>
+
+                    <h3>COMMUNICATIONS  |  PR  | SOCIAL MEDIA</h3>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </li>
+          <li style="background-image: url(&quot;images/img_bg_3.jpg&quot;); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2; height: 518px;" data-thumb-alt="" class="flex-active-slide">
+            <div class="container">
+              <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text animated fadeInUp" style="height: 518px;">
+                <div class="slider-text-inner">
+                  <div class='top-silder-text'>
+                    <h1>Welcome to the home of</h1>
+
+                    <h2>OPEN DOORS COLLECTIVE</h2>
+                  </div>
+
+                  <div class='bottom-silder-text'>
+                    <h1>BESPOKE REPRESENTATION </h1>
+
+                    <h3>COMMUNICATIONS  |  PR  | SOCIAL MEDIA</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li style="background-image: url(&quot;images/img_bg_4.png&quot;); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2; height: 518px;" data-thumb-alt="" class="flex-active-slide">
+            <div class="container">
+              <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text animated fadeInUp" style="height: 518px;">
+                <div class="slider-text-inner">
+                  <div class='top-silder-text'>
+                    <h1>Welcome to the home of</h1>
+
+                    <h2>OPEN DOORS COLLECTIVE</h2>
+                  </div>
+
+                  <div class='bottom-silder-text'>
+                    <h1>BESPOKE REPRESENTATION </h1>
+
+                    <h3>COMMUNICATIONS  |  PR  | SOCIAL MEDIA</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+    </div>
+  </div>
+
+
+    <%= yield %>
+  </div>
+
+
+
+
+  </body>
+</html>
